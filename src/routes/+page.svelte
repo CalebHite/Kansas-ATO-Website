@@ -1,1 +1,0 @@
-<h1>Add more folders to routes folder to create more endpoints</h1>

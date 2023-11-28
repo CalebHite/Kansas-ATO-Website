@@ -3,13 +3,12 @@ import { initializeApp } from "firebase/app";
 // If this shit isnt working type 'npm i' into your terminal
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCI0ng7gTqI2CXV2Nu8XK7FTMjKN0crlig",
-  authDomain: "pictoglot.firebaseapp.com",
-  projectId: "pictoglot",
-  storageBucket: "pictoglot.appspot.com",
-  messagingSenderId: "746569222787",
-  appId: "1:746569222787:web:ae752d09c43e2617a4a9b6",
-  measurementId: "G-T0J39NG55J"
+  apiKey: "AIzaSyBh1UFfDoC9meS3PaU-ZC7Rujm7cidbyXI",
+  authDomain: "ato-gamma-mu.firebaseapp.com",
+  projectId: "ato-gamma-mu",
+  storageBucket: "ato-gamma-mu.appspot.com",
+  messagingSenderId: "933428144661",
+  appId: "1:933428144661:web:575041f4ef34f27bc47c1c"
 };
 
 // Initialize Firebase
