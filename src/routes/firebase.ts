@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-// If this shit isnt working type 'npm i' into your terminal
+// If this shit isnt working type 'npm i' into your terminal inside of the 'routes' folder
 
 const firebaseConfig = {
   apiKey: "AIzaSyBh1UFfDoC9meS3PaU-ZC7Rujm7cidbyXI",
