@@ -26,7 +26,9 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltestrap/sveltestrap": "^6.2.2",
 		"firebase": "^10.7.0",
-		"sveltefire": "^0.4.5"
+		"sveltefire": "^0.4.5",
+		"sveltestrap": "^5.11.3"
 	}
 }

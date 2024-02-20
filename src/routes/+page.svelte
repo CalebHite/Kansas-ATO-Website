@@ -27,6 +27,7 @@
     // }
   
   </script>
+
     <p>ATO Gamma Mu</p> 
     {#each $pictures as p}
         <img src="{p.url}" alt="{p.alt}">
