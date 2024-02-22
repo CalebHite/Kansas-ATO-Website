@@ -7,7 +7,6 @@
     <h1>Contact Us</h1>
     <p>Recruitment: kansasatorecruit@gmail.com</p>
     <p>Alumni Relations: kansasatoalumni@gmail.com</p>
-    <p>Parents Club: </p>
     <p>Philanthropy: kansasatoservice@gmail.com</p>
     <p>Other: kansasatopres@gmail.com</p>
 

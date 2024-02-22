@@ -1,6 +1,6 @@
 <script>
     import Navbar from '$lib/Navbar.svelte'
-
+    import Contact from '$lib/Contact.svelte';
 </script>
 <body>
     <Navbar></Navbar>
@@ -28,13 +28,13 @@
         <div class="col"></div>
     </div>
 </body>
-
+<Contact></Contact>
 <style>
     body{
         overflow-x: hidden;
         text-align: center;
         align-items: center;
-        padding: 1%;
+        margin-bottom: 10%;
     }
     h1{
         margin-top: 5%;
