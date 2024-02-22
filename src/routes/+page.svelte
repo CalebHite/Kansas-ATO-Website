@@ -46,7 +46,7 @@
           <div class="col"></div>
           <div class="col">
             <h1 id="quote">"To Bind Men Together..."</h1>
-            <p id="description">Alpha Tau Omega at The University of Kansas is a brotherhood lasting over a century, allowing men from all backgrounds to unite over shared beliefs and values.</p>
+            <p id="description">Alpha Tau Omega at The University of Kansas is a brotherhood lasting over a century, allowing people from all backgrounds to improve as both leaders and men.</p>
           </div>
           <div class="col"></div>
         </div>
@@ -123,7 +123,7 @@
     }
     .card:hover{
       border-bottom: 2px solid #FFAF38;
-      margin-top: 2px;
+      cursor: pointer;
     }
     .card-title{
       font-family: "Cormorant Garamond", serif;

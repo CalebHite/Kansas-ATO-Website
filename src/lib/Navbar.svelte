@@ -1,16 +1,15 @@
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <img src="" alt="">
+          <a href="/"><img src="../src/lib/gold-cross.png" alt="Golden Cross"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Recruitment</a>
-              <a class="nav-link" href="#">Calendar</a>
-              <a class="nav-link" href="#">Alumni</a>
+              <a class="nav-link active" href="/about">About</a>
+              <a class="nav-link active" href="/recruitment">Recruitment</a>
+              <a class="nav-link active" href="/alumni">Alumni</a>
             </div>
           </div>
         </div>
@@ -23,12 +22,12 @@
     position: sticky;
     overflow: hidden;
   }
-  a{
+  .nav-link{
     font-family: "Cormorant Garamond", serif;
     color: black;
     font-size: 1.5rem;
   }
-  a:hover{
+  .nav-link:hover{
     color: #FFAF38;
   }
 </style>

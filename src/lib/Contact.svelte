@@ -5,11 +5,11 @@
 </script>
 <body>
     <h1>Contact Us</h1>
-    <p>Recruitment: 913-999-9999 example@gmail.com</p>
-    <p>Alumni Relations: 913-999-9999 example@gmail.com</p>
-    <p>Parents Club: 913-999-9999 example@gmail.com</p>
-    <p>Philanthropy: 913-999-9999 example@gmail.com</p>
-    <p>Other: 913-999-9999 example@gmail.com</p>
+    <p>Recruitment: kansasatorecruit@gmail.com</p>
+    <p>Alumni Relations: kansasatoalumni@gmail.com</p>
+    <p>Parents Club: </p>
+    <p>Philanthropy: kansasatoservice@gmail.com</p>
+    <p>Other: kansasatopres@gmail.com</p>
 
 </body>
 
