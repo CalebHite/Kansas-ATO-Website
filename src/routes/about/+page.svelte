@@ -21,7 +21,7 @@
         <div class="col"></div>
     </div>
     <h1>Executive Board</h1>
-    <div class="row row-cols-5 justify-content-md-center">
+    <div class="row row-cols-auto justify-content-md-center">
         {#each $exec as member}
             <div class="col">
                 <div class="card" style="width: 18rem;">
@@ -61,6 +61,9 @@
     }
     p{
         font-family: "Inter", sans-serif;
+    }
+    .card{
+        margin: 1%;
     }
     .card-title{
         font-family: "Cormorant Garamond", serif;
