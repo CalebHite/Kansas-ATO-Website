@@ -9,7 +9,7 @@
             <div class="navbar-nav">
               <a class="nav-link active" href="/about">About</a>
               <a class="nav-link active" href="/recruitment">Recruitment</a>
-              <a class="nav-link active" href="/alumni">Alumni</a>
+              <a class="nav-link active" href="#">Alumni</a>
             </div>
           </div>
         </div>

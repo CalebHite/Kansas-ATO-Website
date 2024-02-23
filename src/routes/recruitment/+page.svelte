@@ -1,5 +1,6 @@
 <script>
     import Navbar from "$lib/Navbar.svelte";
+    import Contact from "$lib/Contact.svelte";
 </script>
 <body>
     <Navbar></Navbar>
@@ -14,6 +15,9 @@
     <p>Completion of Leadership Development Program</p>
     <h1>Interest Form:</h1>
 </body>
+<footer>
+    <Contact></Contact>
+</footer>
 <style>
     body{
         text-align: center;
@@ -23,5 +27,8 @@
     }
     P{
         font-family: "Inter", sans-serif;
+    }
+    footer{
+        text-align: left;
     }
 </style>

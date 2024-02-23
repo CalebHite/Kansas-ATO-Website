@@ -65,9 +65,10 @@
       </div>
       <img alt="Coat of Arms" id="coat-of-arms" src="../src/lib/Alpha_Tau_Omega_Coat_of_Arms.png">
     </div>
-    <Contact></Contact>
   </body>
-  
+  <footer>
+    <Contact></Contact>
+  </footer>
   <style>
     body{
       background: rgb(255,255,255);
@@ -92,7 +93,7 @@
       margin-left: 20%;
       font-family: "Cormorant Garamond", serif;
       font-size: 2rem;
-      color: #e3e3e3;
+      color: white;
     }
     #logo{
       width: 120%;
@@ -135,5 +136,8 @@
     }
     #coat-of-arms{
       margin-top: 10%;
+    }
+    footer{
+      text-align: left;
     }
   </style>
