@@ -4,9 +4,9 @@
 </script>
 <body>
     <Navbar></Navbar>
-    <h1>Recruitment Information</h1>
+    <div id="bg">
+      <h1 id="title">Recruitment Information</h1>
     <div class="row">
-        <div class="col"></div>
         <div class="col">
             <div class="card">
               <div class="card-body">
@@ -14,11 +14,17 @@
                 <p class="card-text">Kaler Lidgett</p>
                 <p class="card-text">913-223-4412</p>
                 <p class="card-text">kansasatorecruit@gmail.com</p>
+                <a href="#" class="btn btn-primary">Interest Form</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
                 <h5 class="card-title">Rush Chairmen</h5>
                 <p class="card-text">Caden Clark 913-568-6583</p>
                 <p class="card-text">Ryan Fohlmeister 913-703-9298</p>
                 <p class="card-text">Kyle Dime 972-898-3117</p>
-                <a href="#" class="btn btn-primary">Interest Form</a>
               </div>
             </div>
           </div>
@@ -33,10 +39,9 @@
               </div>
             </div>
           </div>
-          <div class="col"></div>
     </div>
-    <h1>FAQ:</h1>
     <div class="accordion" id="accordionPanelsStayOpenExample">
+        <h1 class="accordion-title">FAQ:</h1>
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
@@ -77,6 +82,7 @@
           </div>
         </div>
       </div>
+    </div>
 </body>
 <footer>
     <Contact></Contact>
@@ -86,9 +92,16 @@
         text-align: center;
         overflow-x: hidden;
     }
+    #bg{
+      background-image: url("../../lib/recruitment.jpg");
+    }
+    #title{
+      color:white;
+      text-shadow: 1.5px 1.5px black;
+    }
     h1{
         font-family: "Cormorant Garamond", serif;
-    }
+      }
     h2{
         font-family: "Inter", sans-serif;
         font-size: 1.5rem;
@@ -97,10 +110,16 @@
         font-family: "Inter", sans-serif;
     }
     .row{
-        margin-bottom: 5%;
+        padding-bottom: 10%;
+        margin: 1%;
     }
+    
     .accordion{
         text-align: left;
+        background: white;
+    }
+    .accordion-title{
+      margin-left: 1%;
     }
     footer{
         text-align: left;
