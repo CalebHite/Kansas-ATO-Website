@@ -5,37 +5,40 @@
     import { getFirestore  } from "firebase/firestore";
     import Navbar from "../lib/Navbar.svelte"
     import Contact from "../lib/Contact.svelte"
-    // import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
   
-    const firestore = getFirestore(app);
+    // const firestore = getFirestore(app);
 
-    const about = collectionStore(firestore, 'about');
-  
-    // Add this when creating the page to add pictures.
-    //  \/\/\/\/\/
-    // function newItem(id: number, name: string, desc: string, time: number, completeBy: string) {
-    //   if(name != "" && desc != "" && time !> 0 && time != null && completeBy != ""){
-    //     addDoc(collection(firestore, "items"), {
-    //     name: name,
-    //     desc: desc,
-    //     time: time,
-    //     completeBy: completeBy
-    //   });
-    //   }
-    // }
-  
-    // function delItem(id: string){
-    //   deleteDoc(doc(firestore, "items", id));
-    // }
-  
+    // const about = collectionStore(firestore, 'about');
+
+    const about = [
+      {
+        desc: "Taus give back to their community through community service and philanthropic donations.",
+        name: "Philanthropy and Community Service",
+        path: "#",
+        url: "https://i.imgur.com/BU0MtJy.png"
+      },
+      {
+        desc:"Interested in greek life at KU? Get in contact with our recruitment chair and learn more about ATO.",
+        name: "Recruitment Information",
+        path: "/recruitment",
+        url: "https://i.imgur.com/1U6YWcE.png"
+      },
+      {
+        desc: "ATO at The University of Kansas holds a rich history of friendship, brotherhood, and campus leadership.",
+        name: "History of Gamma Mu",
+        path: "/history",
+        url: "https://i.imgur.com/ZtME4Om.jpeg"
+      }
+    ]
+
   </script>
 
   <body>
     <Navbar></Navbar>
     <div id="page-1" class="page">
-      <img src="../src/lib/house.jpg" alt="The House" id='cover-image'>
+      <img src="/house.jpg" alt="The House" id='cover-image'>
       <div id="main-text">
-        <img src="../src/lib/alpha-tau-omega-logo.png" alt="logo" id="logo">
+        <img src="/alpha-tau-omega-logo.png" alt="logo" id="logo">
         <h2 id="subtitle">Gamma Mu</h2>
       </div>
     </div>
@@ -53,17 +56,29 @@
       </div>
       <hr>
       <div class="card-group">
-        {#each $about as card}
-        <div class="card" on:click={window.location.href = card.path}>
-          <img src="{card.url}" class="card-img-top" alt="{card.name}">
+        <div class="card">
+          <img src="https://i.imgur.com/BU0MtJy.png" class="card-img-top" alt="Philanthropy and Community Service">
           <div class="card-body"> 
-            <h5 class="card-title">{card.name}</h5>
-            <p class="card-text">{card.desc}</p>
+            <h5 class="card-title"><a href="#">Philanthropy and Community Service</a></h5>
+            <p class="card-text">Taus give back to their community through community service and philanthropic donations.</p>
           </div>
         </div>
-      {/each}
+        <div class="card">
+          <img src="https://i.imgur.com/1U6YWcE.png" class="card-img-top" alt="Recruitment">
+          <div class="card-body"> 
+            <h5 class="card-title"><a href="/recruitment">Recruitment Information</a></h5>
+            <p class="card-text">Interested in greek life at KU? Get in contact with our recruitment chair and learn more about ATO.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://i.imgur.com/ZtME4Om.jpeg" class="card-img-top" alt="Philanthropy and Community Service">
+          <div class="card-body"> 
+            <h5 class="card-title"><a href="/history">History of Gamma Mu</a></h5>
+            <p class="card-text">ATO at The University of Kansas holds a rich history of friendship, brotherhood, and campus leadership.</p>
+          </div>
+        </div>
       </div>
-      <img alt="Coat of Arms" id="coat-of-arms" src="../src/lib/Alpha_Tau_Omega_Coat_of_Arms.png">
+      <img alt="Coat of Arms" id="coat-of-arms" src="/Alpha_Tau_Omega_Coat_of_Arms.png">
     </div>
   </body>
   <footer>
@@ -77,6 +92,13 @@
     hr{
       margin: 5% 0;
       border-top: 2px solid #FFAF38;
+    }
+    a{
+      color: black;
+      text-decoration: underline 1px black;
+    }
+    a:hover{
+      color: #FFAF38;
     }
     .page{
       height: 100rem;
@@ -121,10 +143,6 @@
     }
     .card{
       border: none;
-    }
-    .card:hover{
-      border-bottom: 2px solid #FFAF38;
-      cursor: pointer;
     }
     .card-title{
       font-family: "Cormorant Garamond", serif;

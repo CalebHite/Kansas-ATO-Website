@@ -1,7 +1,6 @@
 <script>
     import Navbar from "$lib/Navbar.svelte";
     import Contact from "$lib/Contact.svelte";
-	import { Nav } from "sveltestrap";
 </script>
 <body>
     <Navbar></Navbar>

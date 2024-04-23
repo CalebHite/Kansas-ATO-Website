@@ -4,8 +4,8 @@
 </script>
 <body>
     <Navbar></Navbar>
+    <h1 id="title">Recruitment Information</h1>
     <div id="bg">
-      <h1 id="title">Recruitment Information</h1>
     <div class="row">
         <div class="col">
             <div class="card">
@@ -14,7 +14,6 @@
                 <p class="card-text">Kaler Lidgett</p>
                 <p class="card-text">913-223-4412</p>
                 <p class="card-text">kansasatorecruit@gmail.com</p>
-                <a href="#" class="btn btn-primary">Interest Form</a>
               </div>
             </div>
           </div>
@@ -93,14 +92,16 @@
         overflow-x: hidden;
     }
     #bg{
-      background-image: url("../../lib/recruitment.jpg");
-    }
-    #title{
-      color:white;
-      text-shadow: 1.5px 1.5px black;
+      padding-top: 1%;
+      background-image: url("/recruitment.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-color: black;
     }
     h1{
         font-family: "Cormorant Garamond", serif;
+        color: black;
       }
     h2{
         font-family: "Inter", sans-serif;
@@ -119,7 +120,7 @@
         background: white;
     }
     .accordion-title{
-      margin-left: 1%;
+      text-align: center;
     }
     footer{
         text-align: left;

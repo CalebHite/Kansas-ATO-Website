@@ -1,7 +1,7 @@
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a href="/"><img src="../src/lib/gold-cross.png" alt="Golden Cross"></a>
+          <a href="/"><img src="/gold-cross.png" alt="Golden Cross"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
