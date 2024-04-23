@@ -38,6 +38,14 @@
               </div>
             </div>
           </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5>Interest Form</h5>
+                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSf0MlWE9JzLRiTIXq1nxcGpsn68opT48nqCQNJUW4RklEdeDQ/viewform?usp=sf_link">Click Here</a></p>
+              </div>
+            </div>
+          </div>
     </div>
     <div class="accordion" id="accordionPanelsStayOpenExample">
         <h1 class="accordion-title">FAQ:</h1>

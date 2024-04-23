@@ -20,17 +20,8 @@
       "_ssr.js"
     ]
   },
-  "_firestore.js": {
-    "file": "chunks/firestore.js",
-    "imports": [
-      "_index.js"
-    ]
-  },
-  "_index.js": {
-    "file": "chunks/index.js",
-    "imports": [
-      "_ssr.js"
-    ]
+  "_firebase.js": {
+    "file": "chunks/firebase.js"
   },
   "_internal.js": {
     "file": "chunks/internal.js",
@@ -61,44 +52,40 @@
     "file": "index.js",
     "imports": [
       "_internal.js",
-      "_index.js"
+      "_ssr.js"
     ],
     "isEntry": true,
     "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
   },
-  "src/lib/recruitment.jpg": {
-    "file": "_app/immutable/assets/recruitment.4f8f0c08.jpg",
-    "src": "src/lib/recruitment.jpg"
-  },
   "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page.6582f267.css",
+    "file": "_app/immutable/assets/_page.c8b24cc2.css",
     "src": "src/routes/+page.css"
   },
   "src/routes/+page.svelte": {
     "css": [
-      "_app/immutable/assets/_page.6582f267.css"
+      "_app/immutable/assets/_page.c8b24cc2.css"
     ],
     "file": "entries/pages/_page.svelte.js",
     "imports": [
       "_ssr.js",
-      "_firestore.js",
+      "_firebase.js",
       "_Contact.js"
     ],
     "isEntry": true,
     "src": "src/routes/+page.svelte"
   },
   "src/routes/about/+page.css": {
-    "file": "_app/immutable/assets/_page.55e19356.css",
+    "file": "_app/immutable/assets/_page.4aef20e5.css",
     "src": "src/routes/about/+page.css"
   },
   "src/routes/about/+page.svelte": {
     "css": [
-      "_app/immutable/assets/_page.55e19356.css"
+      "_app/immutable/assets/_page.4aef20e5.css"
     ],
     "file": "entries/pages/about/_page.svelte.js",
     "imports": [
       "_ssr.js",
-      "_firestore.js",
+      "_firebase.js",
       "_Contact.js"
     ],
     "isEntry": true,
@@ -153,15 +140,12 @@
     "src": "src/routes/philanthropy/+page.svelte"
   },
   "src/routes/recruitment/+page.css": {
-    "file": "_app/immutable/assets/_page.f832401c.css",
+    "file": "_app/immutable/assets/_page.7a51a0c2.css",
     "src": "src/routes/recruitment/+page.css"
   },
   "src/routes/recruitment/+page.svelte": {
-    "assets": [
-      "_app/immutable/assets/recruitment.4f8f0c08.jpg"
-    ],
     "css": [
-      "_app/immutable/assets/_page.f832401c.css"
+      "_app/immutable/assets/_page.7a51a0c2.css"
     ],
     "file": "entries/pages/recruitment/_page.svelte.js",
     "imports": [

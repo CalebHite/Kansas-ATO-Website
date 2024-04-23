@@ -15,9 +15,9 @@
             position: "Vice President"
         },
         {
-            name: "Caiden Parsons",
-            pic :"https://i.imgur.com/3J53eGp.png",
-            position: "Health and Safety"
+            name: "John Hannigan",
+            pic: "https://i.imgur.com/TXTUcyO.png",
+            position: "Historian"
         },
         {
             name: "Lucas Mercer",
@@ -50,9 +50,9 @@
             position: "Chaplain"
         },
         {
-            name: "John Hannigan",
-            pic: "https://i.imgur.com/TXTUcyO.png",
-            position: "Historian"
+            name: "Caiden Parsons",
+            pic :"https://i.imgur.com/3J53eGp.png",
+            position: "Health and Safety"
         }
     ]
 </script>
