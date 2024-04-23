@@ -5,6 +5,11 @@
     import { getFirestore  } from "firebase/firestore";
     import Navbar from "../lib/Navbar.svelte"
     import Contact from "../lib/Contact.svelte"
+    import { goto } from '$app/navigation';
+
+    function goTo(link) {
+		  goto(link);
+	  }
   
     // const firestore = getFirestore(app);
 
@@ -56,24 +61,24 @@
       </div>
       <hr>
       <div class="card-group">
-        <div class="card">
+        <div class="card" on:click={()=>goto("/philanthropy")}>
           <img src="https://i.imgur.com/BU0MtJy.png" class="card-img-top" alt="Philanthropy and Community Service">
           <div class="card-body"> 
-            <h5 class="card-title"><a href="#">Philanthropy and Community Service</a></h5>
+            <h5 class="card-title">Philanthropy and Community Service</h5>
             <p class="card-text">Taus give back to their community through community service and philanthropic donations.</p>
           </div>
         </div>
-        <div class="card">
+        <div class="card" on:click={()=>goto("/recruitment")}>
           <img src="https://i.imgur.com/1U6YWcE.png" class="card-img-top" alt="Recruitment">
           <div class="card-body"> 
-            <h5 class="card-title"><a href="/recruitment">Recruitment Information</a></h5>
+            <h5 class="card-title">Recruitment Information</h5>
             <p class="card-text">Interested in greek life at KU? Get in contact with our recruitment chair and learn more about ATO.</p>
           </div>
         </div>
-        <div class="card">
-          <img src="https://i.imgur.com/ZtME4Om.jpeg" class="card-img-top" alt="Philanthropy and Community Service">
+        <div class="card" on:click={()=>goto("/history")}>
+          <img src="https://i.imgur.com/ZtME4Om.jpeg" class="card-img-top" alt="History">
           <div class="card-body"> 
-            <h5 class="card-title"><a href="/history">History of Gamma Mu</a></h5>
+            <h5 class="card-title">History of Gamma Mu</h5>
             <p class="card-text">ATO at The University of Kansas holds a rich history of friendship, brotherhood, and campus leadership.</p>
           </div>
         </div>
@@ -93,12 +98,9 @@
       margin: 5% 0;
       border-top: 2px solid #FFAF38;
     }
-    a{
-      color: black;
-      text-decoration: underline 1px black;
-    }
-    a:hover{
-      color: #FFAF38;
+    .card:hover{
+      border-bottom: 2px solid #FFAF38;
+      cursor: pointer;
     }
     .page{
       height: 100rem;

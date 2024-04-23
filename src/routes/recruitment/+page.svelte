@@ -33,8 +33,7 @@
                 <h5 class="card-title">Membership Requirements</h5>
                 <p class="card-text">Cumulative 2.8 GPA</p>
                 <p class="card-text">15 Total Community Service Hours</p>
-                <p class="card-text">2 Years Living In House</p>
-                <p class="card-text">Completion of Membership Development Program</p>
+                <p class="card-text">Completion of Leadership Development Program</p>
               </div>
             </div>
           </div>
@@ -101,7 +100,7 @@
     }
     #bg{
       padding-top: 1%;
-      background-image: url("/recruitment.jpg");
+      background-image: url("/recruitment.png");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;

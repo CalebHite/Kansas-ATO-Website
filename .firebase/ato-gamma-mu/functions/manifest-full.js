@@ -10,7 +10,7 @@ return {
 	assets: new Set(["alpha-tau-omega-logo.png","Alpha_Tau_Omega_Coat_of_Arms.png","asfalt.png","gold-cross.png","house.jpg","recruitment.jpg"]),
 	mimeTypes: {".png":"image/png",".jpg":"image/jpeg"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.ba50494a.js","app":"_app/immutable/entry/app.39bdba74.js","imports":["_app/immutable/entry/start.ba50494a.js","_app/immutable/chunks/scheduler.63274e7e.js","_app/immutable/chunks/singletons.7e3bb27e.js","_app/immutable/entry/app.39bdba74.js","_app/immutable/chunks/scheduler.63274e7e.js","_app/immutable/chunks/index.ff16eba4.js"],"stylesheets":[],"fonts":[]},
+		client: {"start":"_app/immutable/entry/start.51f0537f.js","app":"_app/immutable/entry/app.0a624456.js","imports":["_app/immutable/entry/start.51f0537f.js","_app/immutable/chunks/scheduler.63274e7e.js","_app/immutable/chunks/singletons.8a8cd011.js","_app/immutable/entry/app.0a624456.js","_app/immutable/chunks/scheduler.63274e7e.js","_app/immutable/chunks/index.ff16eba4.js"],"stylesheets":[],"fonts":[]},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),

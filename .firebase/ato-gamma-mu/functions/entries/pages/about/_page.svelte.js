@@ -20,9 +20,9 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       position: "Vice President"
     },
     {
-      name: "Caiden Parsons",
-      pic: "https://i.imgur.com/3J53eGp.png",
-      position: "Health and Safety"
+      name: "John Hannigan",
+      pic: "https://i.imgur.com/TXTUcyO.png",
+      position: "Historian"
     },
     {
       name: "Lucas Mercer",
@@ -55,9 +55,9 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       position: "Chaplain"
     },
     {
-      name: "John Hannigan",
-      pic: "https://i.imgur.com/TXTUcyO.png",
-      position: "Historian"
+      name: "Caiden Parsons",
+      pic: "https://i.imgur.com/3J53eGp.png",
+      position: "Health and Safety"
     }
   ];
   if ($$props.ssr === void 0 && $$bindings.ssr && ssr !== void 0)
