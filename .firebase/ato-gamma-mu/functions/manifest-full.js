@@ -7,10 +7,10 @@ function __memo(fn) {
 return {
 	appDir: "_app",
 	appPath: "_app",
-	assets: new Set(["alpha-tau-omega-logo.png","Alpha_Tau_Omega_Coat_of_Arms.png","asfalt.png","gold-cross.png","house.jpg","recruitment.jpg"]),
+	assets: new Set(["alpha-tau-omega-logo.png","Alpha_Tau_Omega_Coat_of_Arms.png","asfalt.png","gold-cross.png","house.jpg","rcr.png","recruitment.jpg","recruitment.png"]),
 	mimeTypes: {".png":"image/png",".jpg":"image/jpeg"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.51f0537f.js","app":"_app/immutable/entry/app.0a624456.js","imports":["_app/immutable/entry/start.51f0537f.js","_app/immutable/chunks/scheduler.63274e7e.js","_app/immutable/chunks/singletons.8a8cd011.js","_app/immutable/entry/app.0a624456.js","_app/immutable/chunks/scheduler.63274e7e.js","_app/immutable/chunks/index.ff16eba4.js"],"stylesheets":[],"fonts":[]},
+		client: {"start":"_app/immutable/entry/start.0d0d2c16.js","app":"_app/immutable/entry/app.b1a090f4.js","imports":["_app/immutable/entry/start.0d0d2c16.js","_app/immutable/chunks/scheduler.63274e7e.js","_app/immutable/chunks/singletons.3ac5c2d1.js","_app/immutable/entry/app.b1a090f4.js","_app/immutable/chunks/scheduler.63274e7e.js","_app/immutable/chunks/index.d5163801.js"],"stylesheets":[],"fonts":[]},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),

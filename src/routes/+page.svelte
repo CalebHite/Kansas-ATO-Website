@@ -43,8 +43,8 @@
     <div id="page-1" class="page">
       <img src="/house.jpg" alt="The House" id='cover-image'>
       <div id="main-text">
-        <img src="/alpha-tau-omega-logo.png" alt="logo" id="logo">
-        <h2 id="subtitle">Gamma Mu</h2>
+        <h1 id="title">ATΩ</h1>
+        <h2 id="subtitle">University of Kansas</h2>
       </div>
     </div>
     <div class="page" id="page-2">
@@ -108,19 +108,19 @@
     }
     #main-text{
       position: absolute;
+      top: 20%;
+      left: 10%;
       align-items: center;
       text-align: center;
-      top: 35%;
-      left: 40%;
+    }
+    #title{
+      font-size: 10rem;
+      color: white;
     }
     #subtitle{
-      margin-left: 20%;
       font-family: "Cormorant Garamond", serif;
       font-size: 2rem;
       color: white;
-    }
-    #logo{
-      width: 120%;
     }
     #cover-image{
       width: 95rem;

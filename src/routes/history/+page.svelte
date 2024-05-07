@@ -4,7 +4,7 @@
 </script>
 <body>
     <Navbar></Navbar>
-    <h1>History of Gamma Mu</h1>
+    <h1 class="title">History of Gamma Mu</h1>
     <div class="row">
         <div class="col"></div>
         <div class="col-wide">
@@ -34,18 +34,24 @@
     <Contact></Contact>
 </footer>
 <style>
+    .title{
+        margin-top: 5%;
+        font-size: 3rem;
+    }
     body{
         color: black;
         text-align: center;
     }
     h1{
         font-family: "Cormorant Garamond", serif;
+        font-size: 2rem;
     }
+
     p{
         font-family: "Inter", sans-serif;
     }
     .row{
-        margin: 5%;
+        margin: 3%;
     }
     footer{
         text-align: left;
