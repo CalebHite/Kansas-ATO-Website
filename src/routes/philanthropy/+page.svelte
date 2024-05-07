@@ -23,6 +23,7 @@
     body{
         color: black;
         text-align: center;
+        overflow-x: hidden;
     }
     h1{
         font-family: "Cormorant Garamond", serif;

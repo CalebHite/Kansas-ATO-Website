@@ -44,7 +44,7 @@
       <img src="/house.jpg" alt="The House" id='cover-image'>
       <div id="main-text">
         <h1 id="title">ATΩ</h1>
-        <h2 id="subtitle">University of Kansas</h2>
+        <h2 id="subtitle">Gamma Mu / University of Kansas</h2>
       </div>
     </div>
     <div class="page" id="page-2">

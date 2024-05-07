@@ -94,6 +94,7 @@
 </footer>
 <style>
     body{
+        padding-top: 10%;
         overflow-x: hidden;
         text-align: center;
         align-items: center;

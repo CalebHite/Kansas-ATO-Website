@@ -8,12 +8,12 @@
     "src": ".svelte-kit/generated/server/internal.js"
   },
   "Contact.css": {
-    "file": "_app/immutable/assets/Contact.16cdf625.css",
+    "file": "_app/immutable/assets/Contact.b3d57ed6.css",
     "src": "Contact.css"
   },
   "_Contact.js": {
     "css": [
-      "_app/immutable/assets/Contact.16cdf625.css"
+      "_app/immutable/assets/Contact.b3d57ed6.css"
     ],
     "file": "chunks/Contact.js",
     "imports": [
@@ -58,12 +58,12 @@
     "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
   },
   "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page.69140aa8.css",
+    "file": "_app/immutable/assets/_page.01dbe71a.css",
     "src": "src/routes/+page.css"
   },
   "src/routes/+page.svelte": {
     "css": [
-      "_app/immutable/assets/_page.69140aa8.css"
+      "_app/immutable/assets/_page.01dbe71a.css"
     ],
     "file": "entries/pages/_page.svelte.js",
     "imports": [
@@ -108,12 +108,12 @@
     "src": "src/routes/alumni/+page.svelte"
   },
   "src/routes/history/+page.css": {
-    "file": "_app/immutable/assets/_page.dc8b0461.css",
+    "file": "_app/immutable/assets/_page.cce2b0b1.css",
     "src": "src/routes/history/+page.css"
   },
   "src/routes/history/+page.svelte": {
     "css": [
-      "_app/immutable/assets/_page.dc8b0461.css"
+      "_app/immutable/assets/_page.cce2b0b1.css"
     ],
     "file": "entries/pages/history/_page.svelte.js",
     "imports": [
@@ -124,12 +124,12 @@
     "src": "src/routes/history/+page.svelte"
   },
   "src/routes/philanthropy/+page.css": {
-    "file": "_app/immutable/assets/_page.b0cc83c7.css",
+    "file": "_app/immutable/assets/_page.716b6c64.css",
     "src": "src/routes/philanthropy/+page.css"
   },
   "src/routes/philanthropy/+page.svelte": {
     "css": [
-      "_app/immutable/assets/_page.b0cc83c7.css"
+      "_app/immutable/assets/_page.716b6c64.css"
     ],
     "file": "entries/pages/philanthropy/_page.svelte.js",
     "imports": [
