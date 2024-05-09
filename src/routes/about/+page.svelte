@@ -67,7 +67,7 @@
         <div class="col"></div>
     </div>
     <h1>Executive Board</h1>
-    <div id="exec" class="row row-cols-3 justify-content-md-center">
+    <div id="exec" class="row row-cols-5 justify-content-md-center">
         {#each exec as member}
             <div class="col">
                 <div class="card" style="width: 18rem;">
@@ -120,7 +120,6 @@
         font-family: "Inter", sans-serif;
     }
     #exec{
-        margin-left: 10%;
         margin-bottom: 1%;
     }
     footer{

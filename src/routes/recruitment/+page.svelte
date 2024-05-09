@@ -4,9 +4,12 @@
 </script>
 <body>
     <Navbar></Navbar>
-    <h1 id="title">Recruitment Information</h1>
     <div id="bg">
-    <div class="row">
+      <h1 id="title">Join ATΩ</h1>
+    </div>
+    <div class="container">
+      <h1>Join ATΩ at The University of Kansas</h1>
+      <div class="row">
         <div class="col">
             <div class="card">
               <div class="card-body">
@@ -27,26 +30,28 @@
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Membership Requirements</h5>
-                <p class="card-text">Cumulative 2.8 GPA</p>
-                <p class="card-text">15 Total Community Service Hours</p>
-                <p class="card-text">Completion of Leadership Development Program</p>
-              </div>
-            </div>
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Membership Requirements</h5>
+            <p class="card-text">Cumulative 2.8 GPA</p>
+            <p class="card-text">15 Total Community Service Hours</p>
+            <p class="card-text">Completion of Leadership Development Program</p>
           </div>
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <h5>Interest Form</h5>
-                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSf0MlWE9JzLRiTIXq1nxcGpsn68opT48nqCQNJUW4RklEdeDQ/viewform?usp=sf_link">Click Here</a></p>
-              </div>
-            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5>Interest Form</h5>
+            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSf0MlWE9JzLRiTIXq1nxcGpsn68opT48nqCQNJUW4RklEdeDQ/viewform?usp=sf_link">Click Here</a></p>
           </div>
+        </div>
+      </div>
     </div>
-    <div class="accordion" id="accordionPanelsStayOpenExample">
+    </div>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
         <h1 class="accordion-title">FAQ:</h1>
         <div class="accordion-item">
           <h2 class="accordion-header">
@@ -54,7 +59,7 @@
                 Isn't it expensive to join a fraternity?
             </button>
           </h2>
-          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
             <div class="accordion-body">
               <strong>Yes and no.</strong>
               There are additional costs for local and national dues. However, those costs go directly back to you in the form of upgrades to the house, social events, and other resources. Also, there are scholarships and financial aid available which can make affording those dues extremely doable.
@@ -99,16 +104,17 @@
         overflow-x: hidden;
     }
     #bg{
-      padding-top: 1%;
+      padding-top: 15%;
+      padding-bottom: 15%;
       background-image: url("/recruitment.png");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
       background-color: black;
     }
-    h1{
-        font-family: "Cormorant Garamond", serif;
-        color: black;
+    #title{
+       font-size: 6rem;
+        color: white;
       }
     h2{
         font-family: "Inter", sans-serif;
@@ -117,12 +123,16 @@
     P{
         font-family: "Inter", sans-serif;
     }
-    .row{
+    .container{
         padding-bottom: 10%;
         margin: 1%;
+        margin-left: 7%;
     }
-    
+    .row{
+      margin-top: 2%;
+    }
     .accordion{
+      margin-top: 5%;
         text-align: left;
         background: white;
     }

@@ -9,7 +9,7 @@
             <div class="navbar-nav me-auto mb-2 mb-lg-0">
               <a class="nav-link active" href="/about">Our Chapter</a>
               <a class="nav-link active" href="/recruitment">Recruitment</a>
-              <a class="nav-link active" href="/history">History of Gamma Mu</a>
+              <a class="nav-link active" href="/history">History</a>
               <a class="nav-link active" href="/philanthropy">Philanthropy</a>
             </div>
             <span class="navbar-text">

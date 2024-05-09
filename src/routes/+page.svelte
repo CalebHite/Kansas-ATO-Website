@@ -7,6 +7,9 @@
     import Contact from "../lib/Contact.svelte"
     import { goto } from '$app/navigation';
 
+    let subject = '';
+    let body = '';
+
     function goTo(link) {
 		  goto(link);
 	  }
@@ -49,14 +52,14 @@
     </div>
     <div class="page" id="page-2">
       <hr>
-      <div class="container text-center">
+      <div class="container text-center big-text">
         <div class="row">
-          <div class="col"></div>
+          <div class="col quote-side"></div>
           <div class="col">
             <h1 id="quote">"To Bind Men Together..."</h1>
             <p id="description">Alpha Tau Omega at The University of Kansas is a brotherhood lasting over a century, allowing people from all backgrounds to improve as both leaders and men.</p>
           </div>
-          <div class="col"></div>
+          <div class="col quote-side"></div>
         </div>
       </div>
       <hr>
@@ -83,7 +86,22 @@
           </div>
         </div>
       </div>
-      <img alt="Coat of Arms" id="coat-of-arms" src="/Alpha_Tau_Omega_Coat_of_Arms.png">
+      <div class="row email">
+        <div class="col">
+          <h1>Email Us</h1>
+          <label class="form-label" for="name">Name</label>
+          <input class="form-control" id="name" type="text" placeholder="Name" />
+          <label class="form-label" for="emailAddress">Email Address</label>
+          <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+          <label class="form-label" for="message">Message</label>
+          <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+          <br>
+          <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+        </div>
+        <div class="col">
+          <img src="/Alpha_Tau_Omega_Coat_of_Arms.png" class="coa" alt="">
+        </div>
+      </div>
     </div>
   </body>
   <footer>
@@ -132,6 +150,7 @@
       margin-top: -56rem;
       z-index: 2;
       text-align: center;
+      margin-bottom: 5%;
     }
     #quote{
       font-family: "Cormorant Garamond", serif;
@@ -154,8 +173,13 @@
       font-family: "Inter", sans-serif;
       font-size: 1rem;
     }
-    #coat-of-arms{
+    .email{
       margin-top: 10%;
+      margin-left: 10%;
+      text-align: left;
+    }
+    .coa{
+      margin-left: 30%;
     }
     footer{
       text-align: left;
