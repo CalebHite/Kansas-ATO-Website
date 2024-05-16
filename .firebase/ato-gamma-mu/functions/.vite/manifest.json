@@ -58,12 +58,12 @@
     "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
   },
   "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page.01dbe71a.css",
+    "file": "_app/immutable/assets/_page.5d8a56be.css",
     "src": "src/routes/+page.css"
   },
   "src/routes/+page.svelte": {
     "css": [
-      "_app/immutable/assets/_page.01dbe71a.css"
+      "_app/immutable/assets/_page.5d8a56be.css"
     ],
     "file": "entries/pages/_page.svelte.js",
     "imports": [
@@ -75,12 +75,12 @@
     "src": "src/routes/+page.svelte"
   },
   "src/routes/about/+page.css": {
-    "file": "_app/immutable/assets/_page.fa4c4cc0.css",
+    "file": "_app/immutable/assets/_page.9bda06dd.css",
     "src": "src/routes/about/+page.css"
   },
   "src/routes/about/+page.svelte": {
     "css": [
-      "_app/immutable/assets/_page.fa4c4cc0.css"
+      "_app/immutable/assets/_page.9bda06dd.css"
     ],
     "file": "entries/pages/about/_page.svelte.js",
     "imports": [
@@ -108,12 +108,12 @@
     "src": "src/routes/alumni/+page.svelte"
   },
   "src/routes/history/+page.css": {
-    "file": "_app/immutable/assets/_page.cce2b0b1.css",
+    "file": "_app/immutable/assets/_page.25d8e0b0.css",
     "src": "src/routes/history/+page.css"
   },
   "src/routes/history/+page.svelte": {
     "css": [
-      "_app/immutable/assets/_page.cce2b0b1.css"
+      "_app/immutable/assets/_page.25d8e0b0.css"
     ],
     "file": "entries/pages/history/_page.svelte.js",
     "imports": [
@@ -140,12 +140,12 @@
     "src": "src/routes/philanthropy/+page.svelte"
   },
   "src/routes/recruitment/+page.css": {
-    "file": "_app/immutable/assets/_page.1e99f58b.css",
+    "file": "_app/immutable/assets/_page.47044332.css",
     "src": "src/routes/recruitment/+page.css"
   },
   "src/routes/recruitment/+page.svelte": {
     "css": [
-      "_app/immutable/assets/_page.1e99f58b.css"
+      "_app/immutable/assets/_page.47044332.css"
     ],
     "file": "entries/pages/recruitment/_page.svelte.js",
     "imports": [

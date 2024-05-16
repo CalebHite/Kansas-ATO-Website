@@ -18,27 +18,6 @@
 
     // const about = collectionStore(firestore, 'about');
 
-    const about = [
-      {
-        desc: "Taus give back to their community through community service and philanthropic donations.",
-        name: "Philanthropy and Community Service",
-        path: "#",
-        url: "https://i.imgur.com/BU0MtJy.png"
-      },
-      {
-        desc:"Interested in greek life at KU? Get in contact with our recruitment chair and learn more about ATO.",
-        name: "Recruitment Information",
-        path: "/recruitment",
-        url: "https://i.imgur.com/1U6YWcE.png"
-      },
-      {
-        desc: "ATO at The University of Kansas holds a rich history of friendship, brotherhood, and campus leadership.",
-        name: "History of Gamma Mu",
-        path: "/history",
-        url: "https://i.imgur.com/ZtME4Om.jpeg"
-      }
-    ]
-
   </script>
 
   <body>
@@ -63,29 +42,7 @@
         </div>
       </div>
       <hr>
-      <div class="card-group">
-        <div class="card" on:click={()=>goto("/philanthropy")}>
-          <img src="https://i.imgur.com/BU0MtJy.png" class="card-img-top" alt="Philanthropy and Community Service">
-          <div class="card-body"> 
-            <h5 class="card-title">Philanthropy and Community Service</h5>
-            <p class="card-text">Taus give back to their community through community service and philanthropic donations.</p>
-          </div>
-        </div>
-        <div class="card" on:click={()=>goto("/recruitment")}>
-          <img src="https://i.imgur.com/1U6YWcE.png" class="card-img-top" alt="Recruitment">
-          <div class="card-body"> 
-            <h5 class="card-title">Recruitment Information</h5>
-            <p class="card-text">Interested in greek life at KU? Get in contact with our recruitment chair and learn more about ATO.</p>
-          </div>
-        </div>
-        <div class="card" on:click={()=>goto("/history")}>
-          <img src="https://i.imgur.com/ZtME4Om.jpeg" class="card-img-top" alt="History">
-          <div class="card-body"> 
-            <h5 class="card-title">History of Gamma Mu</h5>
-            <p class="card-text">ATO at The University of Kansas holds a rich history of friendship, brotherhood, and campus leadership.</p>
-          </div>
-        </div>
-      </div>
+      
       <div class="row email">
         <div class="col">
           <h1>Email Us</h1>
@@ -180,6 +137,10 @@
     }
     .coa{
       margin-left: 30%;
+    }
+    #carousel{
+      width: 60%;
+      margin-left: 20%;
     }
     footer{
       text-align: left;
