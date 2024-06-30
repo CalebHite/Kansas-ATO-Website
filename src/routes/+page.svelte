@@ -23,10 +23,11 @@
   <body>
     <Navbar></Navbar>
     <div id="page-1" class="page">
-      <img src="/house.jpg" alt="The House" id='cover-image'>
+      <img src="/house.JPEG" alt="The House" id='cover-image'>
       <div id="main-text">
         <h1 id="title">ATΩ</h1>
         <h2 id="subtitle">Gamma Mu / University of Kansas</h2>
+        <h3>Founded 1901</h3>
       </div>
     </div>
     <div class="page" id="page-2">
@@ -42,24 +43,34 @@
         </div>
       </div>
       <hr>
-      
-      <div class="row email">
-        <div class="col">
-          <h1>Email Us</h1>
-          <label class="form-label" for="name">Name</label>
-          <input class="form-control" id="name" type="text" placeholder="Name" />
-          <label class="form-label" for="emailAddress">Email Address</label>
-          <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
-          <label class="form-label" for="message">Message</label>
-          <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
-          <br>
-          <button class="btn btn-primary btn-lg" type="submit">Submit</button>
-        </div>
-        <div class="col">
-          <img src="/Alpha_Tau_Omega_Coat_of_Arms.png" class="coa" alt="">
+    </div>
+      <div id="page-4" class="page">
+        <div class="container about">
+          <div class="row">
+              <h1>About ATO</h1>
+              <p></p>
+              <a href="/about"><button type="button" class="btn btn-primary about-btn">Read More</button></a>
+          </div>
         </div>
       </div>
-    </div>
+      <div class="container">
+        <div class="row email">
+          <div class="col">
+            <h1>Email Us</h1>
+            <label class="form-label" for="name">Name</label>
+            <input class="form-control" id="name" type="text" placeholder="Name" />
+            <label class="form-label" for="emailAddress">Email Address</label>
+            <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+            <br>
+            <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+          </div>
+          <div class="col">
+            <img src="/Alpha_Tau_Omega_Coat_of_Arms.png" class="coa" alt="">
+          </div>
+        </div>
+      </div>
   </body>
   <footer>
     <Contact></Contact>
@@ -78,8 +89,12 @@
       cursor: pointer;
     }
     .page{
-      height: 100rem;
+      height: 40rem;
       width: 100%;
+      overflow: hidden;
+    }
+    #page-1{
+      height: 105rem;
     }
     #main-text{
       position: absolute;
@@ -97,17 +112,22 @@
       font-size: 2rem;
       color: white;
     }
+    h3{
+      color: white;
+      font-family: "Cormorant Garamond", serif;
+      font-style: italic;
+    }
     #cover-image{
       width: 95rem;
+      filter: brightness(70%);
     }
     #page-2{
       background: rgb(255,255,255);
       background-image: url("../src/lib/asfalt.png");
       position: relative;
-      margin-top: -56rem;
+      margin-top: -60rem;
       z-index: 2;
       text-align: center;
-      margin-bottom: 5%;
     }
     #quote{
       font-family: "Cormorant Garamond", serif;
@@ -134,12 +154,27 @@
       margin-top: 10%;
       margin-left: 10%;
       text-align: left;
+      margin-bottom: 10%;
     }
     .coa{
       margin-left: 30%;
     }
-    #carousel{
-      width: 60%;
+    .carousel-item{
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    .about{
+      text-align: left;
+      margin-left: 15%;
+      margin-bottom: 5%;
+    }
+    .about-btn{
+      width: 10%
+    }
+    .carousel{
+      width: 50%;
+      height: 4rem;
+      margin-bottom: 40%;
       margin-left: 20%;
     }
     footer{

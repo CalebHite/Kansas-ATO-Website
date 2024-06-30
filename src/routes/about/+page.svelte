@@ -65,7 +65,12 @@
             <h1>"America's Leadership Development Fraternity"</h1>
             <p>In 1865 three men set out to form a new kind of fraternity, built upon Judeo-Christian roots, with a mission to bind together a country torn apart by the Civil War. Each chapter of ATO has a mission to build a brotherhood of leaders from all backgrounds, bound together by shared virtues and responsibilities.</p></div>
         <div class="col"></div>
+        <p>Chapter Size: </p>
+        <p>Average GPA: </p>
+        <p>Amount Raised for Philanthropy: </p>
+        <p>Total Community Service Hours: </p>
     </div>
+
     <h1>Executive Board</h1>
     <div id="exec" class="row row-cols-5 justify-content-md-center">
         {#each exec as member}
@@ -121,6 +126,9 @@
     }
     #exec{
         margin-bottom: 1%;
+    }
+    ul{
+        text-align: left;
     }
     footer{
         text-align: left;
